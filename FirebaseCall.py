@@ -7,8 +7,8 @@ import time
 
 class FirebaseDataFetcher:
     def __init__(self):
-        self.base_url = "https://capstone-8b226-default-rtdb.asia-southeast1.firebasedatabase.app/Sensor"
-        self.api_key = "AIzaSyA65Eak7DsKkgyLurBV9Cu5D7idS3_6UtA"
+        self.base_url = "insert-url-here" # You can get it sa mismong Firebase Account
+        self.api_key = "insert-api-key-here"
         self.output_dir = r"file-save-directory-inside-quotation"
         os.makedirs(self.output_dir, exist_ok=True)
     
@@ -63,3 +63,4 @@ class FirebaseDataFetcher:
 if __name__ == "__main__":
     fetcher = FirebaseDataFetcher()
     fetcher.continuous_fetch(interval=3)
+

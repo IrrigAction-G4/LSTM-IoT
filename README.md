@@ -1,4 +1,4 @@
-# 🌱 IrrigAction Backend Snapshot
+# IrrigAction - Group 4
 
 > ⚠️ **Note:** This is a **partial copy** of the IrrigAction backend codebase.  
 > Core modules like **Image Recognition**, **QGIS integration**, and **Decision-Making algorithms** are **not included**.  
